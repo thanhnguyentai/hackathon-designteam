@@ -6,26 +6,16 @@ class FeedRow extends Component {
         if(this.props.data.length !== 5)
             return;
         return(
-            <div className="row intro no-gutter">
-                <div className="col-md-6 item">
-                    <FeedItem data={this.props.data[0]}/>
-                </div>
-                <div className="col-md-6">
-                    <div className="row">
-                        <div className="col-sm-6 item">
-                            <FeedItem data={this.props.data[1]}/>
-                        </div>
-                        <div className="col-sm-6 item">
-                            <FeedItem data={this.props.data[2]}/>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="col-sm-6 item">
-                            <FeedItem data={this.props.data[3]}/>
-                        </div>
-                        <div className="col-sm-6 item">
-                            <FeedItem data={this.props.data[4]}/>
-                        </div>
+            <div className="row">
+                <div className="col-md-12">
+                    <div className="intro-container">
+                        {
+                            this.props.data.map((item, index) => {
+                                return (
+                                    <FeedItem key={index} data={item}/>
+                                );
+                            })
+                        }
                     </div>
                 </div>
             </div>

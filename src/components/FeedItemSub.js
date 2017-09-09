@@ -1,19 +1,19 @@
 import React, {Component} from 'react';
 
-class FeedItem extends Component {
+class FeedItemSub extends Component {
     render() {
         var style = {
             backgroundImage: "url('" + this.props.data.image+ "')"
         };
         return(
             <a className="item" href={this.props.data.link} style={style}>
-                <div className="item-title">
+                <div className="img-container" style={style}></div>
+                <div className="title-container">
                     <h2>{this.props.data.title}</h2>
-                    <p>{this.props.data.type}</p>
                 </div>
             </a>
         );
     }
 }
 
-export default FeedItem;
+export default FeedItemSub;

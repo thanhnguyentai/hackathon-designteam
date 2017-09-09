@@ -5,7 +5,7 @@ import 'whatwg-fetch';
 import FeedItemSub from '../components/FeedItemSub';
 import ScrollBottom from '../utils/ScrollBottom';
 
-class Announcement extends Component {
+class HotNews extends Component {
     constructor() {
         super(...arguments);
         this.state = {
@@ -16,7 +16,7 @@ class Announcement extends Component {
     }
     
     getFeeds() {
-        fetch(DataMock.announcement)
+        fetch(DataMock.hotNews)
         .then((response) => response.json())
         .then((responseData) => {
             this.setState({
@@ -68,4 +68,4 @@ class Announcement extends Component {
     }
 }
 
-export default Announcement;
+export default HotNews;

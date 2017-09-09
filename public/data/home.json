@@ -1,0 +1,94 @@
+[{
+	"id": 1,
+	"type": "Hot News",
+	"link":"http://intranet.niteco.se/Lists/Hot%20News/DispForm.aspx?ID=147",
+	"image": "http://intranet.niteco.se/Intranet%20Images/Lists/Hot%20News/HotNewsItems/IMG_1731.jpg",
+	"title": "HACKDAY - Congratulations to our first winner ever!!",
+	"description": "With their great effort, intellegence and creativity, the Design++ team successfully won other 10 teams and became the first winner ever of the Niteco Hackday competition... "
+},{
+	"id": 2,
+	"type": "Our Nitecans",
+	"link":"http://intranet.niteco.se/Lists/Hot%20News/DispForm.aspx?ID=143&ContentTypeId=0x0100D5B83A5C7DD1FE4EB1B1A888148E7320",
+	"image": "https://i.pinimg.com/originals/a8/69/78/a8697852e42036ab514c780635252bc3.jpg",
+	"title": "HAPPY BIRTHDAY TO LINH NGUYEN",
+	"description": "May your lucky stars continue to shine and make all of your dreams come true. Enjoy your day with all of the pleasures. We hope that today is the beginning of another wonderful year for you"
+},{
+	"id": 3,
+	"type": "Upcoming Events",
+	"link":"http://intranet.niteco.se/sites/CompanyActivities/Lists/Company%20Events/DispForm.aspx?ID=102&Source=/sites/CompanyActivities/Lists/Company%20Events/calendar.aspx",
+	"image": "https://lh3.googleusercontent.com/8_y4AV82ialU6odidc5g6cR7eC_WtYstE9oOocPln4DkJLSJtx55U7YMJ1d_Rsihz28rUiCq0ubN8hJaQ1SHsMLnOTx1LHNm4Btl=w5760-h3600-rw-no",
+	"title": "L&L TECHNICAL - REALTIME DATABASE - FIREBASE",
+	"description": ""
+},{
+	"id": 4,
+	"type": "Annoucement",
+	"link":"http://intranet.niteco.se/Lists/Hot%20News/DispForm.aspx?ID=96&ContentTypeId=0x0100D5B83A5C7DD1FE4EB1B1A888148E7320",
+	"image": "http://intranet.niteco.se/PublishingImages/Lists/Hot%20News/NewForm/dich-vu-son-van-phong-cong-ty-2-1-1200x800.jpg",
+	"title": "NOTICE ON OFFICE PAINTING",
+	"description": "Please arrange and take care of your all personal stuff because the office will be dusty and messy possibly while processing."
+},{
+	"id": 5,
+	"type": "PMO Forum",
+	"link":"http://intranet.niteco.se/Lists/Hot%20News/DispForm.aspx?ID=32&ContentTypeId=0x0100D5B83A5C7DD1FE4EB1B1A888148E7320",
+	"image": "http://intranet.niteco.se/PublishingImages/Lists/Hot%20News/NewForm/DSC_0268.JPG",
+	"title": "CONFIRM INFORMATION FOR 2017 SUMMER TRIP",
+	"description": "As informed before, if you make any change related to the trip and including the above matters, you are obliged to compensate for consequent cost"
+},{
+	"id": 6,
+	"type": "Our Nitecans",
+	"link":"http://intranet.niteco.se/Lists/Hot%20News/DispForm.aspx?ID=151&ContentTypeId=0x0100D5B83A5C7DD1FE4EB1B1A888148E7320",
+	"image": "http://static.new.tuoitre.vn/tto/i/s626/2013/04/23/LYC5PjJF.jpg",
+	"title": "HAPPY 2 YEARS WORKING ANNIVERSARY: HAMMAD",
+	"description": "During the time you have worked with us, you have significantly contributed to our success"
+},{
+	"id": 7,
+	"type": "Our Nitecans",
+	"link":"http://intranet.niteco.se/Lists/Hot%20News/DispForm.aspx?ID=143&ContentTypeId=0x0100D5B83A5C7DD1FE4EB1B1A888148E7320",
+	"image": "https://i.pinimg.com/originals/a8/69/78/a8697852e42036ab514c780635252bc3.jpg",
+	"title": "HAPPY BIRTHDAY TO LINH NGUYEN",
+	"description": "May your lucky stars continue to shine and make all of your dreams come true. Enjoy your day with all of the pleasures. We hope that today is the beginning of another wonderful year for you"
+},{
+	"id": 8,
+	"type": "Annoucement",
+	"link":"http://intranet.niteco.se/Lists/Hot%20News/DispForm.aspx?ID=54&ContentTypeId=0x0100D5B83A5C7DD1FE4EB1B1A888148E7320",
+	"image": "https://cdn-images-1.medium.com/max/1200/1*TiKyhAN2gx4PpbOsiBhYcw.png",
+	"title": "SLACK AT NITECO",
+	"description": "For some time we have been discussing how we can improve communication here at Niteco. One tool that some at Niteco are already using for quick communication and knowledge sharing is Slack. With some generalization you could say that slack is a bit similar to Skype, but with one main difference: instead of just being invited to a channel by the channel owner there are open channels where you can decide on which channels you want to be part of."
+},{
+	"id": 9,
+	"type": "Annoucement",
+	"link":"http://intranet.niteco.se/Lists/Hot%20News/DispForm.aspx?ID=69&ContentTypeId=0x0100D5B83A5C7DD1FE4EB1B1A888148E7320",
+	"image": "http://intranet.niteco.se/PublishingImages/Lists/Hot%20News/NewForm/CommerceOportunitiesAhead.jpg",
+	"title": "REFUND TAXI BILL",
+	"description": "Please bring taxi bill (Hoi An Beach resort to Hoang Long Club) to the accounting department to get back your money."
+},{
+	"id": 10,
+	"type": "PMO Forum",
+	"link":"http://intranet.niteco.se/Lists/Hot%20News/DispForm.aspx?ID=24&Source=http%3A%2F%2Fintranet%2Eniteco%2Ese%2FLists%2FHot%2520News%2FPMO ForumItems%2Easpx&ContentTypeId=0x0100D5B83A5C7DD1FE4EB1B1A888148E7320",
+	"image": "http://intranet.niteco.se/PublishingImages/Lists/Hot%20News/NewForm/thank-you%20letter.jpg",
+	"title": "A THANKYOU LETTER FROM PELLE",
+	"description": "We have now started the process for the second salary review 2017. The goal is to finish the salary review before end of June which means the new salary will be paid out in the July salary. To know if you are eligible to have a salary review please see below:"
+},{	
+"id": 11,
+	"type": "PMO Forum",
+	"link":"http://intranet.niteco.se/Lists/Hot%20News/DispForm.aspx?ID=164&ContentTypeId=0x0100D5B83A5C7DD1FE4EB1B1A888148E7320",
+	"image": "http://intranet.niteco.se/Intranet%20Images/Lists/Hot%20News/NewForm/best-1.jpg",
+	"title": "KURT DRESSEL IS IN TOWN",
+	"description": "With more than 150+ registration entries and various topics, our L&L sessions has gained lots of excitement and knowledge during August 2017. We have experienced a variety of training styles, topics in technical and soft skill fields, equipped the attendees with the pratical knowledge in improving their English skills, social and problem solving skills regardless of their background differences and even boundary when we got the training from Sweden in Duc Mai's presentation."
+}, {
+	"id": 12,
+	"type": "PMO Forum",
+	"link":"http://intranet.niteco.se/sites/PMO/Forum/Lists/Posts/Post.aspx?ID=28",
+	"image": "http://intranet.niteco.se/sites/PMO/Forum/PublishingImages/Lists/Posts/NewPost/Hai%20Anh.jpg",
+	"title": "Alex Becomes The New Program Manager Of Open Source Program",
+	"description": "The change will be effective immediately. Alex will also work a small part of his time to support PMO and the Niteco Project Process implementation. Please give Alex the warmest welcome to his new position."
+},{
+	"id": 13,
+	"type": "PMO Forum",
+	"link":"http://intranet.niteco.se/Lists/Hot%20News/DispForm.aspx?ID=125&ContentTypeId=0x0100D5B83A5C7DD1FE4EB1B1A888148E7320",
+	"image": "http://intranet.niteco.se/sites/PMO/Forum/PublishingImages/Lists/Posts/NewPost/change1.jpg",
+	"title": "Stronger Focus On HCMC Office And A New Program Manager In Hanoi",
+	"description": "I am delighted to announce that we did the very first NICEF auction successfully. Thank you all again for your great participation to donate items, support for purchasing and bidding process, and to bid/buy the donated items."
+}
+]	
+	

@@ -6,12 +6,12 @@ class Navigation extends Component {
     render() {
         return(
             <nav>
-                <a href="http://intranet.niteco.se/" className="logo" target="_blank">
+                <Link to="/" className="logo">
                     <img src={logo} alt="logo" />
-                </a>
+                </Link>
                 <ul>
                     <li className="has-notification">
-                        <Link to="/home" activeClassName="active">
+                        <Link to="/hotnews" activeClassName="active">
                             <div className="icon"><i className="zmdi zmdi-globe-alt"></i></div>
                             <span className="text-nav">Hot News</span>
                         </Link>
