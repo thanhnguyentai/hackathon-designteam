@@ -30,7 +30,7 @@ nav ul li.has-notification .icon:before { content: ""; position: absolute; top: 
 
 nav ul li a.active { background-color: #1B1B1B; }
 
-nav ul li a.active .icon i { color: #FFC20E; }
+nav ul li a.active .icon i { color: #FFD400; }
 
 nav ul a { display: block; padding: 13px 24px; opacity: 0.5; -webkit-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; position: relative; cursor: pointer; }
 
@@ -42,7 +42,7 @@ nav ul a .text-nav { color: #FFFFFF; margin-left: 58px; line-height: 38px; displ
 
 nav ul a:hover { opacity: 1; background-color: #1B1B1B; }
 
-nav ul a:hover .icon i { color: #FFC20E; }
+nav ul a:hover .icon i { color: #FFD400; }
 
 aside { width: 350px; min-height: 100%; position: fixed; z-index: 9999; top: 0; right: 0; background-color: white; color: #262524; display: none; }
 
@@ -78,21 +78,27 @@ aside .sign-out { font-size: 12px; float: right; line-height: 50px; text-decorat
 
 aside .sign-out:hover { opacity: 1; }
 
-aside .check-box-custom { width: 50px; text-align: center; position: relative; margin-bottom: 15px; margin-top: 30px; }
+aside .intranet-option li { display: block; padding: 10px 0; }
+
+aside .intranet-option li span { float: left; }
+
+aside .intranet-option li:after { content: ""; display: table; clear: both; }
+
+aside .check-box-custom { width: 50px; text-align: center; position: relative; margin-bottom: 15px; margin-top: 13px; float: right; }
 
 aside .check-box-custom input[type="checkbox"] { position: absolute; top: -5000px; height: 0; width: 0; opacity: 0; border: none; outline: none; }
 
 aside .check-box-custom input[type="checkbox"]:checked + label { height: 2px; background-color: #262524; }
 
-aside .check-box-custom input[type="checkbox"]:checked + label:before { left: calc(100% - 30px); background-color: #FFC20E; -webkit-box-shadow: 0 0 0 4px transparent, 0 2px 3px rgba(0, 0, 0, 0.3); box-shadow: 0 0 0 4px transparent, 0 2px 3px rgba(0, 0, 0, 0.3); }
+aside .check-box-custom input[type="checkbox"]:checked + label:before { left: calc(100% - 30px); background-color: #FFD400; -webkit-box-shadow: 0 0 0 4px transparent, 0 2px 3px rgba(0, 0, 0, 0.3); box-shadow: 0 0 0 4px transparent, 0 2px 3px rgba(0, 0, 0, 0.3); }
 
 aside .check-box-custom input[type="checkbox"]:checked + label:after { color: #666666; }
 
-aside .check-box-custom label { outline: none; -webkit-transition: all 0.25s ease-in-out; -o-transition: all 0.25s ease-in-out; transition: all 0.25s ease-in-out; display: block; position: relative; padding: 0; width: 100%; height: 2px; background-color: #ccc; cursor: pointer; line-height: 30px; }
+aside .check-box-custom label { outline: none; -webkit-transition: all 0.25s ease-in-out; -o-transition: all 0.25s ease-in-out; transition: all 0.25s ease-in-out; display: block; position: relative; padding: 0; width: 100%; height: 2px; background-color: #ccc; cursor: pointer; line-height: 30px; position: absolute; right: 0; }
 
 aside .check-box-custom label:before { content: ""; display: block; position: absolute; z-index: 1; height: 30px; width: 30px; border-radius: 100%; top: -15px; left: 0; right: auto; background: white; -webkit-box-shadow: 0 0 0 4px transparent, 0 2px 3px rgba(0, 0, 0, 0.3); box-shadow: 0 0 0 4px transparent, 0 2px 3px rgba(0, 0, 0, 0.3); -webkit-transition: all 0.25s ease-in-out; -o-transition: all 0.25s ease-in-out; transition: all 0.25s ease-in-out; }
 
-aside .check-box-custom label:after { content: attr(data-lbl); position: absolute; white-space: nowrap; top: -15px; left: 60px; font-weight: 400; color: #ccc; -webkit-transition: all 0.25s ease-in-out; -o-transition: all 0.25s ease-in-out; transition: all 0.25s ease-in-out; }
+aside .check-box-custom label:after { content: attr(data-lbl); position: absolute; white-space: nowrap; top: -15px; left: 0; font-weight: 400; color: #ccc; -webkit-transition: all 0.25s ease-in-out; -o-transition: all 0.25s ease-in-out; transition: all 0.25s ease-in-out; }
 
 main .content-wrapper { width: 85%; margin: 150px auto 0 auto; }
 
@@ -130,11 +136,11 @@ main .view-more-trigger a { display: inline-block; padding: 20px; color: #FFFFFF
 
 main .view-more-trigger a i { font-size: 40px; margin-left: 10px; -webkit-animation: up-down 1s infinite; animation: up-down 1s infinite; }
 
-main .view-more-trigger a:hover { color: #FFC20E; }
+main .view-more-trigger a:hover { color: #FFD400; }
 
 main .load-more { margin-top: 20px; }
 
-main .load-more h1 { font-size: 20px; text-indent: 20px; color: #FFC20E; }
+main .load-more h1 { font-size: 20px; text-indent: 20px; color: #FFD400; }
 
 main .load-more .content-grid { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-flow: row wrap; -ms-flex-flow: row wrap; flex-flow: row wrap; -webkit-box-align: start; -webkit-align-items: flex-start; -ms-flex-align: start; align-items: flex-start; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; }
 

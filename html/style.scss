@@ -1,7 +1,7 @@
 // Dark Theme
 $global-bg-color:		#262524;
 $global-font-color:		#FFFFFF;
-$global-yellow:			#FFC20E;
+$global-yellow:			#FFD400;
 $global-line-color:		#1B1B1B;
 $nav-hover-color:		#1B1B1B;
 $nav-icon-bg:			#0C0C0C;
@@ -255,12 +255,28 @@ aside{
 			opacity: 1;
 		}
 	}
+	.intranet-option{
+		li{
+			display: block;
+			padding:10px 0;
+			span{
+				float:left;
+			}
+			&:after{
+				content:"";
+				display: table;
+				clear: both;
+			}
+		}
+	}
+
 	.check-box-custom{
 		width:50px;
 		text-align: center;
 		position: relative;
 		margin-bottom:15px;
-		margin-top:30px;
+		margin-top:13px;
+		float: right;
 		input[type="checkbox"]{
 			position: absolute;
 			top:-5000px;height:0;width:0;opacity:0;
@@ -289,7 +305,9 @@ aside{
 			height:2px;
 			background-color:#ccc;
 			cursor: pointer;
-			line-height: 30px;
+			line-height:30px;
+			position: absolute;
+			right:0;
 			&:before{
 				content:"";
 				display: block;
@@ -308,7 +326,7 @@ aside{
 				position: absolute;
 				white-space: nowrap;
 				top:-15px;
-				left:60px;
+				left:0;
 				font-weight: 400;
 				color:#ccc;
 				transition: all 0.25s ease-in-out;
