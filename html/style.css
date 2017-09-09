@@ -44,9 +44,9 @@ nav ul a:hover { opacity: 1; background-color: #1B1B1B; }
 
 nav ul a:hover .icon i { color: #FFD400; }
 
-aside { width: 350px; min-height: 100%; position: fixed; z-index: 9999; top: 0; right: 0; background-color: white; color: #262524; display: none; }
+aside { width: 350px; min-height: 100%; position: fixed; z-index: 9999; top: 0; background-color: white; color: #262524; opacity: 0; visibility: hidden; right: -350px; -webkit-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; }
 
-aside.show-aside { -webkit-box-shadow: -3px 0 55px rgba(0, 0, 0, 0.3); box-shadow: -3px 0 55px rgba(0, 0, 0, 0.3); display: block; }
+aside.show-aside { opacity: 1; visibility: visible; -webkit-box-shadow: -3px 0 55px rgba(0, 0, 0, 0.3); box-shadow: -3px 0 55px rgba(0, 0, 0, 0.3); display: block; right: 0; }
 
 aside h1 { margin: 0; font-size: 16px; line-height: 26px; font-weight: 700; color: #262524; text-transform: uppercase; }
 

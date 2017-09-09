@@ -160,13 +160,19 @@ aside{
 	min-height:100%;
 	position: fixed;
 	z-index:9999;
-	top:0;right:0;
+	top:0;
 	background-color: white;
 	color:#262524;
-	display: none;
+	opacity: 0;
+	visibility: hidden;
+	right:-350px;
+	transition: all 0.3s ease-in-out;
 	&.show-aside{
+		opacity: 1;
+		visibility: visible;
 		box-shadow: -3px 0 55px rgba(0,0,0,0.3);
 		display: block;
+		right:0;
 	}
 	h1{
 		margin:0;
