@@ -20,17 +20,17 @@ nav:hover .text-nav { opacity: 1; visibility: visible; }
 
 nav .logo { display: block; padding-top: 15px; padding-left: 30px; padding-bottom: 13px; border-bottom: 1px solid #1B1B1B; }
 
-nav .logo path { fill: #FFC20E; opacity: 0.7; -webkit-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
+nav .logo img { opacity: 0.7; -webkit-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
 
-nav .logo:hover path { opacity: 1; }
+nav .logo:hover img { opacity: 1; }
 
 nav ul li.has-notification .icon:before { content: ""; position: absolute; top: 0; left: 0; background-color: #EC2121; width: 10px; height: 10px; border-radius: 50%; border: 1px solid #1B1B1B; }
 
-nav ul li.active { background-color: #1B1B1B; }
+nav ul li a.active { background-color: #1B1B1B; }
 
-nav ul li.active .icon i { color: #FFC20E; }
+nav ul li a.active .icon i { color: #FFC20E; }
 
-nav ul a { display: block; padding: 13px 24px; height: 64px; opacity: 0.5; -webkit-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; position: relative; }
+nav ul a { display: block; padding: 13px 24px; opacity: 0.5; -webkit-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; position: relative; cursor: pointer; }
 
 nav ul a .icon { display: inline-block; width: 38px; height: 38px; border-radius: 50%; background-color: #0C0C0C; position: absolute; text-align: center; }
 
@@ -42,9 +42,9 @@ nav ul a:hover { opacity: 1; background-color: #1B1B1B; }
 
 nav ul a:hover .icon i { color: #FFC20E; }
 
-aside { width: 350px; min-height: 100%; position: fixed; z-index: 9999; top: 0; right: 0; background-color: white; color: #262524; }
+aside { width: 350px; min-height: 100%; position: fixed; z-index: 9999; top: 0; right: 0; background-color: white; color: #262524; display: none; }
 
-aside.show-aside { -webkit-box-shadow: -3px 0 55px rgba(0, 0, 0, 0.3); box-shadow: -3px 0 55px rgba(0, 0, 0, 0.3); }
+aside.show-aside { -webkit-box-shadow: -3px 0 55px rgba(0, 0, 0, 0.3); box-shadow: -3px 0 55px rgba(0, 0, 0, 0.3); display: block; }
 
 aside h1 { margin: 0; font-size: 16px; line-height: 26px; font-weight: 700; color: #262524; text-transform: uppercase; }
 
@@ -76,7 +76,7 @@ aside .sign-out { font-size: 12px; float: right; line-height: 50px; text-decorat
 
 aside .sign-out:hover { opacity: 1; }
 
-aside .check-box-custom { width: 50px; text-align: center; position: relative; }
+aside .check-box-custom { width: 50px; text-align: center; position: relative; margin-bottom: 15px; margin-top: 30px; }
 
 aside .check-box-custom input[type="checkbox"] { position: absolute; top: -5000px; height: 0; width: 0; opacity: 0; border: none; outline: none; }
 
@@ -84,8 +84,20 @@ aside .check-box-custom input[type="checkbox"]:checked + label { height: 2px; ba
 
 aside .check-box-custom input[type="checkbox"]:checked + label:before { left: calc(100% - 30px); background-color: #FFC20E; -webkit-box-shadow: 0 0 0 4px transparent, 0 2px 3px rgba(0, 0, 0, 0.3); box-shadow: 0 0 0 4px transparent, 0 2px 3px rgba(0, 0, 0, 0.3); }
 
-aside .check-box-custom label { outline: none; -webkit-transition: all 0.25s ease-in-out; -o-transition: all 0.25s ease-in-out; transition: all 0.25s ease-in-out; display: block; position: relative; padding: 0; width: 100%; height: 2px; background-color: #ccc; cursor: pointer; color: #666; line-height: 30px; }
+aside .check-box-custom input[type="checkbox"]:checked + label:after { color: #666666; }
+
+aside .check-box-custom label { outline: none; -webkit-transition: all 0.25s ease-in-out; -o-transition: all 0.25s ease-in-out; transition: all 0.25s ease-in-out; display: block; position: relative; padding: 0; width: 100%; height: 2px; background-color: #ccc; cursor: pointer; line-height: 30px; }
 
 aside .check-box-custom label:before { content: ""; display: block; position: absolute; z-index: 1; height: 30px; width: 30px; border-radius: 100%; top: -15px; left: 0; right: auto; background: white; -webkit-box-shadow: 0 0 0 4px transparent, 0 2px 3px rgba(0, 0, 0, 0.3); box-shadow: 0 0 0 4px transparent, 0 2px 3px rgba(0, 0, 0, 0.3); -webkit-transition: all 0.25s ease-in-out; -o-transition: all 0.25s ease-in-out; transition: all 0.25s ease-in-out; }
 
-aside .check-box-custom label:after { content: attr(data-lbl); position: absolute; white-space: nowrap; }
+aside .check-box-custom label:after { content: attr(data-lbl); position: absolute; white-space: nowrap; top: -15px; left: 60px; font-weight: 400; color: #ccc; -webkit-transition: all 0.25s ease-in-out; -o-transition: all 0.25s ease-in-out; transition: all 0.25s ease-in-out; }
+
+main .item a { display: block; text-decoration: none; }
+
+main .item a img { width: 100%; display: block; }
+
+main .item .item-title { width: 100%; bottom: 0; z-index: 100; }
+
+main .item .item-title h2 { font-size: 20px; color: #FFFFFF; text-decoration: none; }
+
+main .item .item-title p { font-size: 16px; color: #FFF; text-decoration: none; }
