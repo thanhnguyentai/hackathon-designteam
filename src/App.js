@@ -15,7 +15,9 @@ class App extends Component {
       <div className="page-wrapper">
         <Header/>
         <main>
-          {this.props.children}
+          <div className="content-wrapper">
+           {this.props.children}
+          </div>
         </main>
         <Navigation/>
         <Configuration/>

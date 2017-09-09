@@ -2,14 +2,15 @@ import React, {Component} from 'react';
 import DataMock from '../constants/DataMock';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import 'whatwg-fetch';
-import FeedItem from '../components/FeedItem';
+import FeedRow from '../components/FeedRow';
+import ScrollBottom from '../utils/ScrollBottom';
 
 class Home extends Component {
     constructor() {
         super(...arguments);
         this.state = {
             feeds: [],
-            pageSize: 1,
+            pageSize: 5,
             currentPage: 1
         };
     }
@@ -26,6 +27,7 @@ class Home extends Component {
 
     componentDidMount() {
         this.getFeeds();
+        new ScrollBottom(this.nextPage.bind(this));
     }
 
     nextPage() {
@@ -35,31 +37,28 @@ class Home extends Component {
     }
 
     render() {
-        let tempStyle = {
-            position: 'absolute',
-            top: '200px',
-            right: '100px'
-        };
+        let numberShow = this.state.currentPage * this.state.pageSize;
+        let shownFeeds = this.state.feeds.slice(0, numberShow);
+        let listRows = [];
+        for(let i=0; i<shownFeeds.length; i+=this.state.pageSize) {
+            listRows.push(shownFeeds.slice(i, i + this.state.pageSize));
+        }
 
         return (
-            <div>
+            <div className="container" ref={(container) => {this.container = container;}}>
                 <ReactCSSTransitionGroup
                     transitionName="feed-show"
                     transitionEnterTimeout={350}
                     transitionLeaveTimeout={350}
                 >
-                    {
-                        this.state.feeds.map((feed, index) => {
-                            if(index < this.state.currentPage * this.state.pageSize) {
-                                return (
-                                    <FeedItem key={feed.id} data={feed}/>
-                                );
-                            }
-                        })
-                    }
+                 {
+                    listRows.map((row, index) => {
+                        return (<FeedRow key={index} data={row}/>);
+                    })
+                 }   
                 </ReactCSSTransitionGroup>
 
-                <a style={tempStyle} onClick={this.nextPage.bind(this)}>Next</a>
+                <a onClick={this.nextPage.bind(this)}>Next</a>
             </div>
         );
     }
