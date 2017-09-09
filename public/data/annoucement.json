@@ -1,0 +1,73 @@
+[{
+	"id": 1,
+	"type": "Annoucement",
+	"link":"http://intranet.niteco.se/Lists/Hot%20News/DispForm.aspx?ID=164&ContentTypeId=0x0100D5B83A5C7DD1FE4EB1B1A888148E7320",
+	"image": "http://intranet.niteco.se/Intranet%20Images/Lists/Hot%20News/NewForm/best-1.jpg",
+	"title": "BEST PRESENTATION OF THE MONTH - AUGUST 2017",
+	"description": "With more than 150+ registration entries and various topics, our L&L sessions has gained lots of excitement and knowledge during August 2017. We have experienced a variety of training styles, topics in technical and soft skill fields, equipped the attendees with the pratical knowledge in improving their English skills, social and problem solving skills regardless of their background differences and even boundary when we got the training from Sweden in Duc Mai's presentation."
+}, {
+	"id": 2,
+	"type": "Annoucement",
+	"link":"http://intranet.niteco.se/Lists/Hot%20News/DispForm.aspx?ID=150&ContentTypeId=0x0100D5B83A5C7DD1FE4EB1B1A888148E7320",
+	"image": "http://intranet.niteco.se/Intranet%20Images/Lists/Hot%20News/NewForm/etlogo-300x300px.jpg",
+	"title": "IMPORTANT REMINDER",
+	"description": "Please ensure all your team member's timesheets filled out, submitted and approved accurately"
+},{
+	"id": 3,
+	"type": "Annoucement",
+	"link":"http://intranet.niteco.se/Lists/Hot%20News/DispForm.aspx?ID=125&ContentTypeId=0x0100D5B83A5C7DD1FE4EB1B1A888148E7320",
+	"image": "http://intranet.niteco.se/Intranet%20Images/Lists/Hot%20News/NewForm/AUCTION%20PIC%201.jpg",
+	"title": "NICEF FIRST AUCTION RESULT",
+	"description": "I am delighted to announce that we did the very first NICEF auction successfully. Thank you all again for your great participation to donate items, support for purchasing and bidding process, and to bid/buy the donated items."
+},{
+	"id": 4,
+	"type": "Annoucement",
+	"link":"http://intranet.niteco.se/Lists/Hot%20News/DispForm.aspx?ID=96&ContentTypeId=0x0100D5B83A5C7DD1FE4EB1B1A888148E7320",
+	"image": "http://intranet.niteco.se/PublishingImages/Lists/Hot%20News/NewForm/dich-vu-son-van-phong-cong-ty-2-1-1200x800.jpg",
+	"title": "NOTICE ON OFFICE PAINTING",
+	"description": "Please arrange and take care of your all personal stuff because the office will be dusty and messy possibly while processing."
+},{
+	"id": 5,
+	"type": "Annoucement",
+	"link":"http://intranet.niteco.se/Lists/Hot%20News/DispForm.aspx?ID=97&ContentTypeId=0x0100D5B83A5C7DD1FE4EB1B1A888148E7320",
+	"image": "http://intranet.niteco.se/PublishingImages/Lists/Hot%20News/NewForm/OEVLX90.jpg",
+	"title": "THE RESULT IS HERE!",
+	"description": "Congratulations to Thai Phan - Frontend Developer for winning the social network contest in July!"
+},{
+	"id": 6,
+	"type": "Annoucement",
+	"link":"http://intranet.niteco.se/Lists/Hot%20News/DispForm.aspx?ID=32&ContentTypeId=0x0100D5B83A5C7DD1FE4EB1B1A888148E7320",
+	"image": "http://intranet.niteco.se/PublishingImages/Lists/Hot%20News/NewForm/DSC_0268.JPG",
+	"title": "CONFIRM INFORMATION FOR 2017 SUMMER TRIP",
+	"description": "As informed before, if you make any change related to the trip and including the above matters, you are obliged to compensate for consequent cost"
+},{
+	"id": 7,
+	"type": "Annoucement",
+	"link":"http://intranet.niteco.se/Lists/Hot%20News/DispForm.aspx?ID=29&ContentTypeId=0x0100D5B83A5C7DD1FE4EB1B1A888148E7320",
+	"image": "http://intranet.niteco.se/PublishingImages/Lists/Hot%20News/NewForm/G1910.png",
+	"title": "DO NOT FORGET TO CLOSE THE DOOR, TURN OFF LIGHT AND AIR-CONDITIONER",
+	"description": "To ensure the office's security and energy-saving issue, please  KEEP THE MAIN DOOR CLOSED AT ALL TIMES."
+},{
+	"id": 8,
+	"type": "Annoucement",
+	"link":"http://intranet.niteco.se/Lists/Hot%20News/DispForm.aspx?ID=54&ContentTypeId=0x0100D5B83A5C7DD1FE4EB1B1A888148E7320",
+	"image": "https://cdn-images-1.medium.com/max/1200/1*TiKyhAN2gx4PpbOsiBhYcw.png",
+	"title": "SLACK AT NITECO",
+	"description": "For some time we have been discussing how we can improve communication here at Niteco. One tool that some at Niteco are already using for quick communication and knowledge sharing is Slack. With some generalization you could say that slack is a bit similar to Skype, but with one main difference: instead of just being invited to a channel by the channel owner there are open channels where you can decide on which channels you want to be part of."
+},{
+	"id": 9,
+	"type": "Annoucement",
+	"link":"http://intranet.niteco.se/Lists/Hot%20News/DispForm.aspx?ID=69&ContentTypeId=0x0100D5B83A5C7DD1FE4EB1B1A888148E7320",
+	"image": "http://intranet.niteco.se/PublishingImages/Lists/Hot%20News/NewForm/CommerceOportunitiesAhead.jpg",
+	"title": "REFUND TAXI BILL",
+	"description": "Please bring taxi bill (Hoi An Beach resort to Hoang Long Club) to the accounting department to get back your money."
+},{
+	"id": 10,
+	"type": "Annoucement",
+	"link":"http://intranet.niteco.se/Lists/Hot%20News/DispForm.aspx?ID=24&Source=http%3A%2F%2Fintranet%2Eniteco%2Ese%2FLists%2FHot%2520News%2FAnnouncementItems%2Easpx&ContentTypeId=0x0100D5B83A5C7DD1FE4EB1B1A888148E7320",
+	"image": "http://intranet.niteco.se/PublishingImages/Lists/Hot%20News/NewForm/thank-you%20letter.jpg",
+	"title": "A THANKYOU LETTER FROM PELLE",
+	"description": "We have now started the process for the second salary review 2017. The goal is to finish the salary review before end of June which means the new salary will be paid out in the July salary. To know if you are eligible to have a salary review please see below:"
+}
+]	
+	

@@ -1,5 +1,13 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+.feed-show-enter {
+    opacity: 0;
+    transform: translate(0, -100px);
+}
+.feed-show-enter.feed-show-enter-active {
+    opacity: 1;
+    transform: translate(0, 0);
+    transition: .35s ease-in;
+}
+.feed-show-leave {
+}
+.feed-show.feed-show-active {
 }

@@ -1,0 +1,73 @@
+[{
+	"id": 1,
+	"type": "Hot News",
+	"link":"http://intranet.niteco.se/Lists/Hot%20News/DispForm.aspx?ID=147",
+	"image": "http://intranet.niteco.se/Intranet%20Images/Lists/Hot%20News/HotNewsItems/IMG_1731.jpg",
+	"title": "HACKDAY - Congratulations to our first winner ever!!",
+	"description": "With their great effort, intellegence and creativity, the Design++ team successfully won other 10 teams and became the first winner ever of the Niteco Hackday competition... "
+}, {
+	"id": 2,
+	"type": "Hot News",
+	"link":"http://intranet.niteco.se/sites/PMO/Forum/Lists/Posts/Post.aspx?List=f54e0314-950e-492d-8be3-26beb943c51a&ID=31&Web=1dc8164d-8002-4f69-9bf3-edfa8fd1e7c1",
+	"image": "http://intranet.niteco.se/sites/PMO/Forum/PublishingImages/Lists/Posts/NewPost/Service%20+.jpg",
+	"title": "TEAM OF THE QUARTER, Q2 - SERVICE PLUS",
+	"description": "A little bit late but now we can finally announce the winners of the \"Team of the quarter\" for Q2. After recieving so many good arguments, the team that will get the prize this time is the Service + team"
+},{
+	"id": 3,
+	"type": "Hot News",
+	"link":"http://intranet.niteco.se/Lists/Hot%20News/DispForm.aspx?ID=147",
+	"image": "http://intranet.niteco.se/Intranet%20Images/Lists/Hot%20News/NewForm/03.jpg",
+	"title": "Hack your way to win",
+	"description": "With the prize pool of USD 1650, it is such a waste if you miss your chance by not registering on time. J. And it is definitely a waste if we miss a chance to play with the state of the art technologies together with our team members for the things that are different from our 248 working days of the year. ^^"
+},{
+	"id": 4,
+	"type": "Hot News",
+	"link":"http://intranet.niteco.se/Lists/Hot%20News/DispForm.aspx?ID=84&ContentTypeId=0x0100D5B83A5C7DD1FE4EB1B1A888148E7320",
+	"image": "http://intranet.niteco.se/PublishingImages/Lists/Hot%20News/NewForm/%5E4287CF9D19AE5C48F54A3CA78D20C35731DFD6A60CB6DF6614%5Epimgpsh_fullsize_distr.png",
+	"title": "NICEF AUCTION",
+	"description": "One man's unused stuff is another man's treasure. The NICEF AUCTION event is where you can look for and buy useful stuff from other Nitecans. The money from this event will aid NICEF in future activities."
+},{
+	"id": 5,
+	"type": "Hot News",
+	"link":"http://intranet.niteco.se/Lists/Hot%20News/DispForm.aspx?ID=21&ContentTypeId=0x0100D5B83A5C7DD1FE4EB1B1A888148E7320",
+	"image": "http://intranet.niteco.se/PublishingImages/Lists/Hot%20News/NewForm/Grow_career.png",
+	"title": "FINDING YOUR CAREER PATH",
+	"description": "One of the key things to be able to grow your career is to understand what your goals are and how to achieve them. The performance review session and personal development plan are two crucial tools for you to use."
+},{
+	"id": 6,
+	"type": "Hot News",
+	"link":"http://intranet.niteco.se/Lists/Hot%20News/DispForm.aspx?ID=59&ContentTypeId=0x0100D5B83A5C7DD1FE4EB1B1A888148E7320",
+	"image": "http://www.theleader.info/wp-content/uploads/2017/07/National-Lottery-logo.png",
+	"title": "NICEF LOTTERY FOR A HAPPY SUMMER",
+	"description": "In order to do the fundraising for NICEF and make the summer more meaningful, and more happy for not only us, but also to others, NICEF is grateful to organize the very first NICEF Lottery"
+},{
+	"id": 7,
+	"type": "Hot News",
+	"link":"http://intranet.niteco.se/Lists/Hot%20News/DispForm.aspx?ID=61&ContentTypeId=0x0100D5B83A5C7DD1FE4EB1B1A888148E7320",
+	"image": "http://intranet.niteco.se/PublishingImages/Lists/Hot%20News/NewForm/socialnetworkcontest.jpg",
+	"title": "SOCIAL NETWORK CONTEST",
+	"description": "I am honored to announce a contest for our experts here in Niteco. With this contest, we hope to unite the best minds of Niteco to make our social network platforms (Facebook and Twitter at first) more active and more informative!"
+},{
+	"id": 8,
+	"type": "Hot News",
+	"link":"http://intranet.niteco.se/Lists/Hot%20News/DispForm.aspx?ID=78&ContentTypeId=0x0100D5B83A5C7DD1FE4EB1B1A888148E7320",
+	"image": "http://intranet.niteco.se/PublishingImages/Lists/Hot%20News/NewForm/Logo-powering-01.png",
+	"title": "THE INTRANET FOR NITECANS - OFFICIAL LAUNCH",
+	"description": "We are officially launching our Intranet (http://intranet.niteco.se/). The Intranet is part of the IMIS project that we have been working on for two years now. Most of this is already in place and part of the systems that lot of Nitecans already use daily, but with the intranet officially in place we have reached a milestone that is worth celebrating"
+},{
+	"id": 9,
+	"type": "Hot News",
+	"link":"http://intranet.niteco.se/Lists/Hot%20News/DispForm.aspx?ID=53&ContentTypeId=0x0100D5B83A5C7DD1FE4EB1B1A888148E7320",
+	"image": "http://intranet.niteco.se/PublishingImages/Lists/Hot%20News/NewForm/CommerceOportunitiesAhead.jpg",
+	"title": "E-COMMERCE OPPORTUNITIES AHEAD",
+	"description": "We are currently seing a lot of growth of the amount of E-commerce opportunities in the pipeline. This is one of the areas where we have decided to try and grow, and we see a lot of interest right now. We have a number of potential cases in the UK the coming months with Episerver Commerce. For Sitecore Commerce, we are discussing with Sitecore APAC on getting some developers certifified later this year. We are also under discussions with Swedish E-commerce vendor Litium to built up resources in order to support their current expansion plans."
+},{
+	"id": 10,
+	"type": "Hot News",
+	"link":"http://intranet.niteco.se/Lists/Hot%20News/DispForm.aspx?ID=40&ContentTypeId=0x0100D5B83A5C7DD1FE4EB1B1A888148E7320",
+	"image": "http://intranet.niteco.se/PublishingImages/Lists/Hot%20News/NewForm/Salary.jpg",
+	"title": "SECOND SALARY REVIEW 2017",
+	"description": "We have now started the process for the second salary review 2017. The goal is to finish the salary review before end of June which means the new salary will be paid out in the July salary. To know if you are eligible to have a salary review please see below:"
+}
+]	
+	
