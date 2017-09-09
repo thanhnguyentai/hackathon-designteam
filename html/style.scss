@@ -345,7 +345,65 @@ main{
 		width:85%;
 		margin:150px auto 0 auto;
 	}
-
+	.top-message{
+		margin-bottom: 30px;
+		&:after{
+			content: "";
+			display: table;
+			clear: both;
+		}
+		.message{
+			float: left;
+			position: relative;
+			width:calc(50%);
+			&:after{
+				content: "";
+				display: table;
+				clear: both;
+			}
+			background-color:$global-line-color;
+			padding:20px;
+			img{
+				margin-right:30px;
+				display: inline-block;
+				position: absolute;
+				top:20px;
+				left:20px;
+			}
+			span{
+				font-size:18px;
+				display: block;
+				margin-left:150px;
+				padding-right: 50px;
+			}
+			.close-message{
+				position: absolute;
+				top:20px;right:30px;
+				font-size:20px;
+				color:$global-font-color;
+				opacity: 0.5;
+				text-decoration: none;
+				transition: all 0.2s ease-in-out;
+				&:hover{
+					opacity: 1;
+					text-decoration: none;
+				}
+			}
+		}
+		.clock{
+			float:right;
+			.clock-time{
+				font-size:40px;
+				font-weight:300;
+				margin: 0;
+			}
+			.clock-date{
+				font-size:17px;
+				font-weight:300;
+				margin: 0;
+			}
+		}
+	}
 	.intro-container{
 		position: relative;
 		width:100%;
