@@ -1,0 +1,91 @@
+body { background-color: #262524; font-family: "Roboto", sans-serif; color: #FFFFFF; font-weight: 300; }
+
+ul { list-style: none; padding: 0; margin: 0; }
+
+a { text-decoration: none; }
+
+header { border-bottom: 1px solid #1B1B1B; height: 66px; text-align: right; position: fixed; top: 0; width: 100%; }
+
+header a { display: inline-block; height: 65px; text-align: center; padding: 0; margin-right: 30px; text-decoration: none; color: #FFFFFF !important; opacity: 0.5; font-size: 14px; line-height: 65px; -webkit-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
+
+header a i { font-size: 20px !important; }
+
+header a:hover { text-decoration: none; opacity: 1; }
+
+nav { -webkit-transition: width 0.4s ease-in-out; -o-transition: width 0.4s ease-in-out; transition: width 0.4s ease-in-out; border-right: 1px solid #1B1B1B; background-color: #262524; width: 86px; min-height: 100%; position: fixed; top: 0; left: 0; overflow-x: hidden; }
+
+nav:hover { width: 270px; }
+
+nav:hover .text-nav { opacity: 1; visibility: visible; }
+
+nav .logo { display: block; padding-top: 15px; padding-left: 30px; padding-bottom: 13px; border-bottom: 1px solid #1B1B1B; }
+
+nav .logo path { fill: #FFC20E; opacity: 0.7; -webkit-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
+
+nav .logo:hover path { opacity: 1; }
+
+nav ul li.has-notification .icon:before { content: ""; position: absolute; top: 0; left: 0; background-color: #EC2121; width: 10px; height: 10px; border-radius: 50%; border: 1px solid #1B1B1B; }
+
+nav ul li.active { background-color: #1B1B1B; }
+
+nav ul li.active .icon i { color: #FFC20E; }
+
+nav ul a { display: block; padding: 13px 24px; height: 64px; opacity: 0.5; -webkit-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; position: relative; }
+
+nav ul a .icon { display: inline-block; width: 38px; height: 38px; border-radius: 50%; background-color: #0C0C0C; position: absolute; text-align: center; }
+
+nav ul a .icon i { line-height: 38px; font-size: 20px; color: #FFFFFF; -webkit-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
+
+nav ul a .text-nav { color: #FFFFFF; margin-left: 58px; line-height: 38px; display: inline-block; font-size: 16px; opacity: 0; visibility: hidden; -webkit-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; white-space: nowrap; }
+
+nav ul a:hover { opacity: 1; background-color: #1B1B1B; }
+
+nav ul a:hover .icon i { color: #FFC20E; }
+
+aside { width: 350px; min-height: 100%; position: fixed; z-index: 9999; top: 0; right: 0; background-color: white; color: #262524; }
+
+aside.show-aside { -webkit-box-shadow: -3px 0 55px rgba(0, 0, 0, 0.3); box-shadow: -3px 0 55px rgba(0, 0, 0, 0.3); }
+
+aside h1 { margin: 0; font-size: 16px; line-height: 26px; font-weight: 700; color: #262524; text-transform: uppercase; }
+
+aside h2 { margin: 0; font-size: 14px; font-weight: 700; color: #262524; opacity: 0.4; margin-bottom: 20px; text-transform: uppercase; }
+
+aside .close-aside { position: absolute; top: 20px; right: 30px; font-size: 20px; color: #262524; opacity: 0.5; text-decoration: none; -webkit-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
+
+aside .close-aside:hover { opacity: 1; text-decoration: none; }
+
+aside .aside-section { padding: 20px 30px; border-bottom: 1px solid #eee; }
+
+aside .aside-section:first-of-type { height: 66px; }
+
+aside .aside-section:last-of-type { border-bottom: 0; }
+
+aside .aside-section:after { content: ""; display: table; clear: both; }
+
+aside .profile-link { text-decoration: none; float: left; width: 80%; }
+
+aside .profile-link img { width: 50px; height: 50px; border-radius: 50%; float: left; margin-right: 10px; }
+
+aside .profile-link p { margin: 7px 0 0 0; font-size: 12px; color: #ccc; }
+
+aside .profile-link p span { font-size: 14px; color: #262524; text-decoration: none; opacity: 0.7; -webkit-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; font-weight: 700; display: block; }
+
+aside .profile-link:hover span { opacity: 1; }
+
+aside .sign-out { font-size: 12px; float: right; line-height: 50px; text-decoration: none; color: #262524; opacity: 0.3; -webkit-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; font-weight: 400; }
+
+aside .sign-out:hover { opacity: 1; }
+
+aside .check-box-custom { width: 50px; text-align: center; position: relative; }
+
+aside .check-box-custom input[type="checkbox"] { position: absolute; top: -5000px; height: 0; width: 0; opacity: 0; border: none; outline: none; }
+
+aside .check-box-custom input[type="checkbox"]:checked + label { height: 2px; background-color: #262524; }
+
+aside .check-box-custom input[type="checkbox"]:checked + label:before { left: calc(100% - 30px); background-color: #FFC20E; -webkit-box-shadow: 0 0 0 4px transparent, 0 2px 3px rgba(0, 0, 0, 0.3); box-shadow: 0 0 0 4px transparent, 0 2px 3px rgba(0, 0, 0, 0.3); }
+
+aside .check-box-custom label { outline: none; -webkit-transition: all 0.25s ease-in-out; -o-transition: all 0.25s ease-in-out; transition: all 0.25s ease-in-out; display: block; position: relative; padding: 0; width: 100%; height: 2px; background-color: #ccc; cursor: pointer; color: #666; line-height: 30px; }
+
+aside .check-box-custom label:before { content: ""; display: block; position: absolute; z-index: 1; height: 30px; width: 30px; border-radius: 100%; top: -15px; left: 0; right: auto; background: white; -webkit-box-shadow: 0 0 0 4px transparent, 0 2px 3px rgba(0, 0, 0, 0.3); box-shadow: 0 0 0 4px transparent, 0 2px 3px rgba(0, 0, 0, 0.3); -webkit-transition: all 0.25s ease-in-out; -o-transition: all 0.25s ease-in-out; transition: all 0.25s ease-in-out; }
+
+aside .check-box-custom label:after { content: attr(data-lbl); position: absolute; white-space: nowrap; }
