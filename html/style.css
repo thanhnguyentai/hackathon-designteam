@@ -10,6 +10,8 @@ header a { display: inline-block; height: 65px; text-align: center; padding: 0; 
 
 header a i { font-size: 20px !important; }
 
+header a img { height: 18px; }
+
 header a:hover { text-decoration: none; opacity: 1; }
 
 nav { -webkit-transition: width 0.4s ease-in-out; -o-transition: width 0.4s ease-in-out; transition: width 0.4s ease-in-out; border-right: 1px solid #1B1B1B; background-color: #262524; width: 86px; min-height: 100%; position: fixed; top: 0; left: 0; overflow-x: hidden; z-index: 9999; }
@@ -18,7 +20,7 @@ nav:hover { width: 270px; }
 
 nav:hover .text-nav { opacity: 1; visibility: visible; }
 
-nav .logo { display: block; padding-top: 15px; padding-left: 30px; padding-bottom: 13px; border-bottom: 1px solid #1B1B1B; }
+nav .logo { display: block; padding-top: 15px; padding-left: 30px; padding-bottom: 18px; border-bottom: 1px solid #1B1B1B; }
 
 nav .logo img { opacity: 0.7; -webkit-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
 
@@ -129,6 +131,10 @@ main .view-more-trigger a { display: inline-block; padding: 20px; color: #FFFFFF
 main .view-more-trigger a i { font-size: 40px; margin-left: 10px; -webkit-animation: up-down 1s infinite; animation: up-down 1s infinite; }
 
 main .view-more-trigger a:hover { color: #FFC20E; }
+
+main .load-more { margin-top: 20px; }
+
+main .load-more h1 { font-size: 20px; text-indent: 20px; color: #FFC20E; }
 
 main .load-more .content-grid { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-flow: row wrap; -ms-flex-flow: row wrap; flex-flow: row wrap; -webkit-box-align: start; -webkit-align-items: flex-start; -ms-flex-align: start; align-items: flex-start; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; }
 

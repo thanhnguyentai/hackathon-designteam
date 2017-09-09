@@ -49,6 +49,9 @@ header{
 		i{
 			font-size:20px !important;
 		}
+		img{
+			height:18px;
+		}
 		&:hover{
 			text-decoration: none;
 			opacity: 1;
@@ -76,7 +79,7 @@ nav{
 		img{opacity:0.7;transition: all 0.2s ease-in-out;}
 		padding-top:15px;
 		padding-left:30px;
-		padding-bottom:13px;
+		padding-bottom:18px;
 		border-bottom:1px solid $global-line-color;
 		&:hover{
 			img{opacity:1;}
@@ -415,6 +418,12 @@ main{
 		}
 	}
 	.load-more{
+		margin-top:20px;
+		h1{
+			font-size:20px;
+			text-indent:20px;
+			color:$global-yellow;
+		}
 		.content-grid{
 			display: flex;
 			flex-flow: row wrap;
