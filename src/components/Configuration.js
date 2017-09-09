@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import profile from '../profile.jpg';
 
+import localData from '../utils/LocalStorage';
+
 class Configuration extends Component {
 
     closeConfiguration() {
@@ -19,7 +21,7 @@ class Configuration extends Component {
     render() {
         let isShow = this.props.isShow;
         let wrapperClass = isShow? "show-aside" : "";
-        let configData = this.props.filterData;
+        let configData = localData.getFilterData();
 
         return(
             <aside className={wrapperClass}>
@@ -49,14 +51,14 @@ class Configuration extends Component {
                             <li>
                                 <span>Hot News</span>
                                 <div className="check-box-custom">
-                                    <input onChange={this.toggleFilterHotNew.bind(this)} id="option1" type="checkbox" name="chk-theme" checked={configData.isHotNew} />
+                                    <input id="option1" type="checkbox" name="chk-theme" defaultChecked={configData.isHotNew} />
                                     <label htmlFor="option1" data-lbl=""></label>
                                 </div>
                             </li>
                             <li>
                                 <span>Announcements</span>
                                 <div className="check-box-custom">
-                                    <input onChange={this.toggleFilterAnnouncement.bind(this)} id="option2" type="checkbox" name="chk-theme" checked={configData.isAnnouncement} />
+                                    <input id="option2" type="checkbox" name="chk-theme" defaultChecked={configData.isAnnouncement} />
                                     <label htmlFor="option2" data-lbl=""></label>
                                 </div>
                             </li>
